@@ -19,7 +19,11 @@ section {
   height: 150px;
   width: 100%;
   font-family: Cinzel, serif;
-  /* border-bottom: 1px solid black; */
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 
 .projects {
@@ -97,6 +101,11 @@ p {
   background-color: #f0f0f5;
 }
 
+.stand-alone {
+  color: black;
+  font-size: xx-large;
+}
+
 .project1 {
   display: flex;
   align-items: center;
@@ -128,10 +137,8 @@ p {
   justify-content: space-around;
   align-items: center;
   align-content: center;
-  /* height: 100%; */
   width: auto;
   border: 0.05px solid black;
-  /* background-color: khaki; */
 }
 
 .photo-resize2 {
@@ -153,36 +160,98 @@ p {
   align-items: center;
   justify-content: space-around;
   align-content: center;
-  /* height: 100%; */
   width: auto;
   border: 0.05px solid black;
-  /* background-color: khaki; */
 }
 
 .projectfont {
   font-size: xx-large;
 }
 
-/* footer {
+footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #dddfed;
+  background-color: #222f36;
   height: 200px;
   width: 100%;
   font-family: Cinzel, serif;
-} */
-
-.container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-  height: 200px;
+  color: white;
 }
 
-.item {
-  height: 99px;
-  width: 33%px;
-  border: 2px solid black;
+.nats {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  align-content: center;
+  width: auto;
+  border: 0.05px solid black;
+  height: 300px;
+}
+
+/* // Styles for 0-499px viewports */
+@media (max-width: 500px) {
+  .header2 {
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #222f36;
+    height: 150px;
+    width: 100%;
+    font-family: Cinzel, serif;
+  }
+
+  .bio {
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #dddfed;
+    height: 800px;
+    width: 100%;
+    font-family: Cinzel, serif;
+    background-image: url('https://png.pngtree.com/thumb_back/fw800/back_our/20190628/ourmid/pngtree-light-blue-background-image_264178.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .project1 {
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    height: 100%;
+    width: auto;
+    border: 0.05px solid black;
+    /* background-color: khaki; */
+  }
+
+  .project2 {
+    display: grid;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    width: auto;
+    border: 0.05px solid black;
+  }
+
+  .project3 {
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    width: auto;
+    border: 0.05px solid black;
+  }
+
+  footer {
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #222f36;
+    height: 200px;
+    width: 100%;
+    font-family: Cinzel, serif;
+    color: white;
+  }
 }
