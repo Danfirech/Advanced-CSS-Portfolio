@@ -11,13 +11,22 @@ section {
   width: 100%;
 }
 
-header {
+.header2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #dddfed;
   height: 150px;
   width: 100%;
-  background-color: lightblue;
-  border: 5px solid black;
-  display: flex;
+  font-family: Cinzel, serif;
+  border-bottom: 1px solid black;
 }
+
+/* header {
+  background-color: lightblue;
+  border: 2px solid black;
+  display: flex;
+} */
 
 .projects {
   justify-content: space-between;
@@ -25,14 +34,14 @@ header {
 }
 
 .daniel {
-  margin-left: 80px;
-  margin-bottom: 60px;
+  font-size: x-large;
+}
+
+.me {
   font-size: x-large;
 }
 
 .possehl {
-  margin-right: 80px;
-  margin-bottom: 60px;
   font-size: x-large;
 }
 
@@ -44,14 +53,15 @@ p {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: wheat;
-  height: 300px;
+  background-color: #dddfed;
+  height: 800px;
   width: 100%;
   font-family: Cinzel, serif;
 }
 
 .pizza {
-  height: 100%;
+  height: 150px;
+  width: 150px;
   width: auto;
 }
 
@@ -74,6 +84,7 @@ p {
 .photo-resize {
   height: 250px;
   width: 250px;
+  border-radius: 50%;
 }
 
 .project2 {
@@ -88,6 +99,12 @@ p {
   /* background-color: khaki; */
 }
 
+.photo-resize2 {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+
 .project3 {
   display: flex;
   align-items: center;
@@ -99,6 +116,18 @@ p {
   /* background-color: khaki; */
 }
 
-.showmywork {
+.photo-resize3 {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+
+footer {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #dddfed;
+  height: 200px;
+  width: 100%;
+  font-family: Cinzel, serif;
 }
